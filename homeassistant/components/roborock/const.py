@@ -60,7 +60,7 @@ GET_VACUUM_CURRENT_POSITION_SERVICE_NAME = "get_vacuum_current_position"
 
 
 A01_UPDATE_INTERVAL = timedelta(minutes=1)
-V1_CLOUD_IN_CLEANING_INTERVAL = timedelta(seconds=30)
-V1_CLOUD_NOT_CLEANING_INTERVAL = timedelta(minutes=1)
-V1_LOCAL_IN_CLEANING_INTERVAL = timedelta(seconds=15)
-V1_LOCAL_NOT_CLEANING_INTERVAL = timedelta(seconds=30)
+V1_CLOUD_IN_CLEANING_INTERVAL = timedelta(seconds=120)
+V1_CLOUD_NOT_CLEANING_INTERVAL = timedelta(minutes=60)
+V1_LOCAL_IN_CLEANING_INTERVAL = timedelta(seconds=120)
+V1_LOCAL_NOT_CLEANING_INTERVAL = timedelta(seconds=60)
